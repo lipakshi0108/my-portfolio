@@ -1,0 +1,152 @@
+.projects {
+  padding: 100px 20px;
+  background-color: #ffffff;
+}
+
+.projects-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.projects-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.projects-heading p {
+  color: #2563eb;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.projects-heading h2 {
+  font-size: 36px;
+  color: #111827;
+}
+
+.project-card {
+  max-width: 800px;
+  margin: 0 auto;
+
+  padding: 35px;
+
+  background-color: #f8fafc;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.project-content h3 {
+  font-size: 28px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.project-type {
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.project-description {
+  color: #4b5563;
+  line-height: 1.7;
+  margin-bottom: 22px;
+}
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+  margin-bottom: 25px;
+}
+
+.project-technologies span {
+  padding: 7px 12px;
+
+  background-color: #dbeafe;
+  color: #1d4ed8;
+
+  border-radius: 5px;
+
+  font-size: 14px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.project-btn {
+  padding: 10px 20px;
+
+  border: 1px solid #2563eb;
+  border-radius: 5px;
+
+  color: #2563eb;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.project-btn:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+.project-content{
+  text-align: center;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .projects {
+    padding: 80px 20px;
+  }
+
+  .projects-heading h2 {
+    font-size: 30px;
+  }
+
+  .project-card {
+    padding: 25px;
+  }
+
+  .project-content h3 {
+    font-size: 24px;
+  }
+
+  .project-buttons {
+    flex-direction: column;
+  }
+
+  .project-btn {
+    text-align: center;
+  }
+}
+.project-label {
+  display: inline-block;
+
+  margin-bottom: 12px;
+
+  color: #2563eb;
+
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
